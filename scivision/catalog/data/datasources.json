@@ -165,6 +165,20 @@
         "ecology",
         "environmental-science"
       ]
+    },
+    {
+	"name": "data-007",
+	"description": "A labelled dataset of honeybee images, from Kaggle",
+	"tasks": [
+	    "classificiation"
+	],
+	"domains": ["nature","insects", "bee-keeping"],
+	"url": "https://github.com/nbarlowATI/honeybee_data_repo/archive.zip",
+	"format" : "image",
+	"labels_provided": "no",
+	"institution" "alan-turing-institute",
+	"tags": ["bees", "biology", "classification"]
     }
+
   ]
 }
