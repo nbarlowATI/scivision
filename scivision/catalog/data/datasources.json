@@ -170,15 +170,27 @@
 	"name": "data-007",
 	"description": "A labelled dataset of honeybee images, from Kaggle",
 	"tasks": [
-	    "classificiation"
+	    "classification"
 	],
 	"domains": ["nature","insects", "bee-keeping"],
-	"url": "https://github.com/nbarlowATI/honeybee_data_repo/archive.zip",
+	"url": "https://github.com/nbarlowATI/honeybee_data_repo",
 	"format" : "image",
-	"labels_provided": "no",
-	"institution" "alan-turing-institute",
+	"labels_provided": "yes",
+	"institution": ["alan-turing-institute"],
 	"tags": ["bees", "biology", "classification"]
+    },
+    {
+	"name": "data-008",
+	"description": "A labelled dataset of flower images, from Kaggle",
+	"tasks": [
+	    "classification"
+	],
+	"domains": ["nature","flowers", "biology"],
+	"url": "https://github.com/nbarlowATI/flowers_data_repo",
+	"format" : "image",
+	"labels_provided": "yes",
+	"institution": ["alan-turing-institute"],
+	"tags": ["flowers", "biology", "classification"]
     }
-
   ]
 }
