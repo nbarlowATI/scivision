@@ -191,6 +191,32 @@
 	"labels_provided": "yes",
 	"institution": ["alan-turing-institute"],
 	"tags": ["flowers", "biology", "classification"]
+    },
+    {
+	"name": "data-009",
+	"description": "A labelled dataset of butterfly images, from Kaggle",
+	"tasks": [
+	    "classification"
+	],
+	"domains": ["nature","butterflies", "biology"],
+	"url": "https://github.com/nbarlowATI/butterfly_data_repo",
+	"format" : "image",
+	"labels_provided": "yes",
+	"institution": ["alan-turing-institute"],
+	"tags": ["butterflies", "biology", "classification"]
+    },
+    {
+	"name": "data-010",
+	"description": "A labelled dataset of pollen grain images, from Kaggle",
+	"tasks": [
+	    "classification"
+	],
+	"domains": ["nature","pollen", "biology"],
+	"url": "https://github.com/nbarlowATI/pollen_data_repo",
+	"format" : "image",
+	"labels_provided": "yes",
+	"institution": ["alan-turing-institute"],
+	"tags": ["pollen", "biology", "classification"]
     }
   ]
 }

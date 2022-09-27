@@ -286,6 +286,62 @@
           "bee",
 	  "honeybee"
       ]
+    },
+    {
+      "name": "flower-species",
+      "tasks": [
+        "classification"
+      ],
+      "url": "https://github.com/nbarlowATI/flower_classification_model",
+      "pkg_url": "git+https://github.com/nbarlowATI/flower_classification_model.git@main",
+      "format": "image",
+      "pretrained": true,
+      "labels_required": false,
+      "institution": [
+        "Alan Turing Institute"
+      ],
+      "tags": [
+          "flower",
+	  "biology"
+      ]
+    },
+    {
+      "name": "butterfly-species",
+      "tasks": [
+        "classification"
+      ],
+      "url": "https://github.com/nbarlowATI/butterfly_classification_model",
+      "pkg_url": "git+https://github.com/nbarlowATI/butterfly_classification_model.git@main",
+      "format": "image",
+      "pretrained": true,
+      "labels_required": false,
+      "institution": [
+        "Alan Turing Institute"
+      ],
+      "tags": [
+          "butterfly",
+	  "insect",
+	  "biology"
+      ]
+    },
+    {
+      "name": "pollen-types",
+      "tasks": [
+        "classification"
+      ],
+      "url": "https://github.com/nbarlowATI/pollen_classification_model",
+      "pkg_url": "git+https://github.com/nbarlowATI/pollen_classification_model.git@main",
+      "format": "image",
+      "pretrained": true,
+      "labels_required": false,
+      "institution": [
+        "Alan Turing Institute"
+      ],
+      "tags": [
+          "pollen",
+	  "plant",
+	  "biology"
+      ]
     }
   ]
 }
